@@ -478,7 +478,7 @@ for /f "tokens=*" %%A in ('reg query "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSe
 if "%regpath%"=="" (
     echo Error: Could not find adapter registry path.
     pause
-    exit /b
+    goto 3
 )
 
 :: Apply the new MAC address to the registry
