@@ -6,8 +6,8 @@ cls
 color 0c
 echo A.C.A please enter password
 set /p pass1=
-if %pass1%==4@QSwFAxoo^3 goto 3
-if not %pass1%==4@QSwFAxoo^3 goto fail
+if %pass1%==1234 goto 3
+if not %pass1%==1234 goto fail
 
 :3
 cls
